@@ -1,0 +1,25 @@
+============== ArrayList ============ 
+[pushB]8:aaa8:99 now existed in B 
+[pushB]6:bbb6:88 now existed in B 
+[pushB]4:ccc4:77 now existed in B 
+[pushB]2:ddd2:66 now existed in B 
+[pushB]0:eee0:55 now existed in B 
+[pushB]1:fff1:44 now existed in B 
+[pushB]3:ggg3:33 now existed in B 
+[pushB]5:hhh5:22 now existed in B 
+[pushB]7:iii7:11 now existed in B 
+[pushB]9:JJJ9:0 now existed in B 
+[compare] DataA contains B 
+[compare] collectionexactly same with B 
+[compare] Hashcode-1850035531 : -1850035531
+[removeB]8:aaa8:99not existed in B 
+[removeB]6:bbb6:88not existed in B 
+[removeB]4:ccc4:77not existed in B 
+[removeB]2:ddd2:66not existed in B 
+[removeB]0:eee0:55not existed in B 
+[removeB]1:fff1:44not existed in B 
+[removeB]3:ggg3:33not existed in B 
+[removeB]5:hhh5:22not existed in B 
+[removeB]7:iii7:11not existed in B 
+[removeB]9:JJJ9:0not existed in B 
+[status]B is now empty 

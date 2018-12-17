@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" stylesheets="sample.css" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.102" fx:controller="Controller">
+    <Button onAction="#sayHelloWD" text="Say 'Hello World'" />
+    <Label fx:id="HellooWord" GridPane.rowIndex="1" />
+   <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.rowIndex="2">
+     <buttons>
+       <Button minWidth="71.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="Button" />
+     </buttons>
+   </ButtonBar>
+   <Button alignment="TOP_RIGHT" mnemonicParsing="false" prefHeight="23.0" prefWidth="177.0" text="Button" GridPane.rowIndex="1" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

@@ -1,0 +1,50 @@
+============== HashSet ============ 
+[       ]grade: name 
+[pushB  ]10:iii not in B 
+[pushB  ]60:aaa not in B 
+[pushB  ]72:xxx not in B 
+[pushB  ]10:jjj not in B 
+[pushB  ]84:uuu     in B 
+[pushB  ]76:www not in B 
+[pushB  ]94:ccc     in B 
+[pushB  ]96:ppp     in B 
+[pushB  ]0:mmm not in B 
+[pushB  ]100:nnn     in B 
+[pushB  ]96:ooo     in B 
+[pushB  ]55:bbb not in B 
+[pushB  ]45:ccc not in B 
+[pushB  ]88:ttt     in B 
+[pushB  ]35:eee not in B 
+[pushB  ]80:vvv     in B 
+[pushB  ]34:ddd not in B 
+[pushB  ]25:ggg not in B 
+[pushB  ]20:hhh not in B 
+[pushB  ]84:bbb     in B 
+[pushB  ]68:yyy not in B 
+[pushB  ]0:lll not in B 
+[pushB  ]40:ddd not in B 
+[pushB  ]90:sss     in B 
+[pushB  ]92:qqq     in B 
+[pushB  ]64:zzz not in B 
+[pushB  ]92:rrr     in B 
+[pushB  ]30:fff not in B 
+[pushB  ]74:aaa not in B 
+[pushB  ]0:kkk not in B 
+[compare]DataA contains B 
+[compare]collection is not same to B 
+[compare]Hashcode-340167710 : 1278605869
+[compare] collection is same to B 
+[compare]Hashcode1278605869 : 1278605869
+[removeB]100:nnn not in B 
+[removeB]96:ooo not in B 
+[removeB]88:ttt not in B 
+[removeB]80:vvv not in B 
+[removeB]84:uuu not in B 
+[removeB]94:ccc not in B 
+[removeB]96:ppp not in B 
+[removeB]90:sss not in B 
+[removeB]92:qqq not in B 
+[removeB]92:rrr not in B 
+[removeB]84:bbb not in B 
+[removeB]B is now empty 
+[removeA]A is now empty 

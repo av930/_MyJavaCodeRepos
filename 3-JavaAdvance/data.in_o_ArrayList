@@ -1,0 +1,44 @@
+============== ArrayList ============ 
+[       ]grade: name 
+[pushB  ]60:aaa01 not in B 
+[pushB  ]55:bbb02 not in B 
+[pushB  ]45:ccc03 not in B 
+[pushB  ]40:ddd04 not in B 
+[pushB  ]35:eee05 not in B 
+[pushB  ]30:fff06 not in B 
+[pushB  ]25:ggg07 not in B 
+[pushB  ]20:hhh08 not in B 
+[pushB  ]10:iii09 not in B 
+[pushB  ]10:jjj10 not in B 
+[pushB  ]0:kkk11 not in B 
+[pushB  ]0:lll12 not in B 
+[pushB  ]0:mmm13 not in B 
+[pushB  ]100:nnn14     in B 
+[pushB  ]96:ooo15     in B 
+[pushB  ]96:ppp16     in B 
+[pushB  ]92:qqq17     in B 
+[pushB  ]92:rrr18     in B 
+[pushB  ]90:sss19     in B 
+[pushB  ]88:ttt20     in B 
+[pushB  ]84:uuu21     in B 
+[pushB  ]80:vvv22     in B 
+[pushB  ]76:www23 not in B 
+[pushB  ]72:xxx24 not in B 
+[pushB  ]68:yyy25 not in B 
+[pushB  ]64:zzz26 not in B 
+[compare]DataA contains B 
+[compare]collection is not same to B 
+[compare]Hashcode-116494518 : -100704822
+[compare] collection is same to B 
+[compare]Hashcode-100704822 : -100704822
+[removeB]100:nnn14 not in B 
+[removeB]96:ooo15 not in B 
+[removeB]96:ppp16 not in B 
+[removeB]92:qqq17 not in B 
+[removeB]92:rrr18 not in B 
+[removeB]90:sss19 not in B 
+[removeB]88:ttt20 not in B 
+[removeB]84:uuu21 not in B 
+[removeB]80:vvv22 not in B 
+[removeB]B is now empty 
+[removeA]A is now empty 
