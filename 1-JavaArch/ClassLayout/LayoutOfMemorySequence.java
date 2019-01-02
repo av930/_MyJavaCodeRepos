@@ -2,7 +2,6 @@
  * class 초기화 순서에 대한 example
  * static method에 대한 access example
  */
-package structure;
 class Memorybase {
     // 1. static initializer: class 명시적 초기화
     static int classVar = 0;

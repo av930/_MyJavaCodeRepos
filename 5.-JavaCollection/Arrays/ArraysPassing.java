@@ -1,7 +1,8 @@
 /**
  * Created by joongkeun.kim on 2017-07-11.
+ * Array를 함수의 arguement로 사용하는 방법
  */
-public class ArrayPassing {
+public class ArraysPassing {
     public static void main(String[] args) {
         double[] myList = {1.9, 2.9, 3.4, 3.5};
 
@@ -15,14 +16,13 @@ public class ArrayPassing {
 
         // Finding the largest element
         double max = myList[0];
-        for (int i = 1; i < myList.length; i++) if (myList[i] > max) max = myList[i];
-
+        for (double i: myList) if (i > max) max = i;
         System.out.println("Max is " + max);
 
         // call by reference
-        int[] xyz ={1,2,3};
-        max = self_multi (xyz);
-        System.out.println("result of reference: "+ xyz[0] + xyz[1] + xyz[2] + "=" + max);
+        int[] xyz= {1,2,3};
+        max = self_multi(xyz);
+        System.out.println("result of reference: "+ xyz[0]+ xyz[1]+ xyz[2] + "=" + max);
 
         //get subarray
         double[] pArrayTemp= get(myList, 1, 2);
@@ -32,9 +32,9 @@ public class ArrayPassing {
 
     static int self_multi (int[] xyz)
     {
-        xyz[0]*=xyz[0];   xyz[1]*=xyz[1];   xyz[2]*=xyz[2];
         System.out.println("array object operation");
-        return xyz[0]+xyz[1]+xyz[2];
+        xyz[0]*=xyz[0];   xyz[1]*=xyz[1];   xyz[2]*=xyz[2];
+        return xyz[0]+ xyz[1]+ xyz[2];
     }
 
 

@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 /**
  * Created by joongkeun.kim on 2017-07-24.
+ * Array를 Print하는 방법. Arrays.deepToString으로 하면 multi level의 내용까지 출력됨.
  */
 public class ArrayPrint {
     public static void main(String[] args) {

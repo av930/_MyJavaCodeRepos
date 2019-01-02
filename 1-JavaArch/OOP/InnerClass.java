@@ -8,7 +8,8 @@ package oop;
 
 public class InnerClass {
 
-    class MyInnerClass { //inner class
+    // inner class
+    class MyInnerClass {
         String s1= "1st string";
         String s2= "2nd string";
 
@@ -20,6 +21,7 @@ public class InnerClass {
         }
     }
 
+    // static innerclass
     static class MyInnerClassDemo { //static inner
         public static void seeStatic() {
             System.out.println("[static inner class]");

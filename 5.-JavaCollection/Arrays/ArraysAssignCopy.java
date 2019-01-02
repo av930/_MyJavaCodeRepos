@@ -2,8 +2,9 @@ import java.util.Arrays;
 
 /**
  * Created by joongkeun.kim on 2017-07-19.
+ * 배열간의 copy 및 초기화
  */
-public class ArrayAssignCopy {
+public class ArraysAssignCopy {
     public static void main(String[] args) {
         int[] source = new int[] {1, 2, 3};
         int[] target = new int[5];

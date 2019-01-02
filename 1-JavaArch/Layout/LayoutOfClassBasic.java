@@ -1,4 +1,3 @@
-package structure;
 
 /**
  * Created by joongkeun.kim on 16/12/06/006.
@@ -12,9 +11,13 @@ public class LayoutOfClassBasic {
         System.out.println("func:"+ var);
         return 0;
     }
+
+    // psvm을 입력하면 Intellij에서는 다음문장을 generation 시켜줌
+    // public static void main(String[] args)
+
     public static void main(String[] args) {
         System.out.println("main");
-        structure.LayoutOfClassBasic rself = new structure.LayoutOfClassBasic();
+        LayoutOfClassBasic rself = new LayoutOfClassBasic();
         rself.func(100);
         return;
     }

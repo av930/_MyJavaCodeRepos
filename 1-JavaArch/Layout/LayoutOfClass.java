@@ -1,3 +1,7 @@
+/*
+get/set method example
+ */
+
 public class LayoutOfClass {
     int layoutSize;
 
